@@ -1,5 +1,15 @@
 from random import randint
 
+False and False == False
+False and True == False
+True and True == True
+
+False or False == False
+False or True == True
+True or True == True
+
+did_try_their_best = True
+
 minimum = 1
 maximum = 30
 
