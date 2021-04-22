@@ -13,9 +13,9 @@ capital_of_slovenia = {
     "is_clean": True
 }
 
-for item in capital_of_slovenia.items():
-    # (key, value)[1]
-    print(f"The {item[0]} is {item[1]}.")
+#for item in capital_of_slovenia.items():
+#    # (key, value)[1]
+#    print(f"The {item[0]} is {item[1]}.")
 
 # print(capital_of_slovenia["name"])
 # print(capital_of_slovenia.get("population"))
@@ -41,8 +41,10 @@ capitals = [capital_of_slovenia, capital_of_england]
 my_book = {
     "title": "Kako izgoreti",
     "pages": 200,
-    "author": "Nekdo"
+    "chapters": ["..."]
 }
+
+print(my_book["author"])
 
 my_fruit = {
     "type": "apple",
